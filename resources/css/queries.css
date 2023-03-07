@@ -1,0 +1,613 @@
+/* rem and em do NOT depend on html font size in media queries, Instead 1rem = 1em = 16px */
+
+/* *********************************** */
+/* BELOW 1344px (Smaller desktops) */
+/* *********************************** */
+@media (max-width: 84em) {
+
+}
+
+/* *********************************** */
+/* BELOW 1200px (Landscape Tablet) */
+/* *********************************** */
+@media (max-width: 75em) {
+    .row {
+        margin: auto 0.5rem;
+    }
+    .first-section img {
+        height: 22.5rem;
+        width: 28.75rem;
+    }
+
+    .third-section img {
+        height: 10rem;
+        width: 11.5rem;
+        padding-left: 1.5rem;
+    }
+    .order {
+        background-color: white;
+        border: 0.1rem solid rgb(239, 231, 231);
+        box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+        width: 74%;
+        height: 7.5rem;
+        position: relative; bottom: 0.2rem; left: 1.5rem;
+    }
+
+    .fourth-section img {
+        height: 22.5rem;
+        width: 28.5rem;
+    }
+}
+
+/* *********************************** */
+/* BELOW 944px (Tablets) */
+/* *********************************** */
+@media (max-width: 59em) {
+    .row {
+        margin: auto 0.5rem;
+    }
+    .first-section img {
+        height: 19rem;
+        width: 22.25rem;
+    }
+.btn-full:link, 
+.btn-full:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.8rem 1.75rem;
+    border-radius: 0.25rem;
+    position: relative; bottom: 1.25rem; left: 0rem;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.8rem 1.75rem;
+    border-radius: 0.25rem;
+    position: relative; bottom: 1.25rem; left: 0rem;
+}
+.second-section .box p {
+    text-align: center;
+    padding: 1rem;
+}
+
+.third-section img {
+    height: 10rem;
+    width: 10.5rem;
+    position: relative; right: 0.75rem;
+}
+.order {
+    background-color: white;
+    border: 0.1rem solid rgb(239, 231, 231);
+    box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+    width: 86%;
+    height: 7.5rem;
+    position: relative; bottom: 0.2rem; left: 0.75rem;
+}
+.fourth-section img {
+    height: 22.5rem;
+    width: 22.25rem;
+}
+.fourth-section p { line-height: 2.5em; position: relative; top: 3rem;}
+
+.steps div {
+    color: rgb(201, 44, 44);
+    border: 0.1rem solid rgb(201, 44, 44);
+    display: inline-block;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 0.15rem;
+    position: relative; left: 12.5rem;
+   }
+   .last-section p { padding: 1.5rem 0rem 1.5rem 5rem;}
+   .last-section img {height: 19rem;}
+
+}
+
+/* *********************************** */
+/* BELOW 768px (Smaller Tablets) */
+/* *********************************** */
+@media (max-width: 48em) {
+    .row {
+        margin: auto 0.5rem;
+    }
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        transition: color 0.3s ;
+      }
+      
+      a:hover,
+      a:active {
+          text-decoration: none;
+          font-size: 1rem;
+          color: rgb(145, 136, 136);
+      }
+      .nav li{
+        display: inline-block;
+        margin-left: 1.25rem;
+        position: relative; bottom: 1.25rem; left: 0.4rem;
+        transition: border-bottom 0.3s ;
+    }
+    
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 1.25rem;
+        position: relative; bottom:1.25rem; left: 0.4rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 0.15rem solid rgb(249, 44, 44);;
+    }
+
+    .first-section img {
+        height: 17rem;
+        width: 100%;
+    }
+    .second-section .box p {
+        text-align: center;
+        padding: 0.5rem;
+    }
+    .third-section img {
+        height: 10rem;
+        width: 114%;
+        position: relative; right: 0.75rem;
+    }
+    .order {
+        background-color: white;
+        border: 0.1rem solid rgb(239, 231, 231);
+        box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+        width: 96%;
+        height: 7.5rem;
+        position: relative; bottom: 0.2rem; left: 0.75rem;
+    }
+    .third-section .btn-full2:link, 
+    .third-section .btn-full2:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.25rem;
+    position: relative; top: 0.9rem; left: -0.1rem;
+    transition: background-color 0.5s;
+}
+
+   .third-section .btn-full2:hover,
+   .third-section .btn-full2:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.25rem;
+    position: relative; top: 0.9rem; left: -0.1rem;
+}
+.fourth-section img {
+    height: 22.5rem;
+    width: 104%;
+}
+.fourth-section p { line-height: 1.5em; position: relative; top: 5rem; right: 1rem;}
+.last-section img {height: 16.25rem; position: relative; right: 1rem;}
+.steps div {
+    color: rgb(201, 44, 44);
+    border: 0.1rem solid rgb(201, 44, 44);
+    display: inline-block;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 0.15rem;
+    position: relative; left: 9.5rem;
+   }
+   
+   .about p {line-height: 1.3em; text-align: center; margin-right: 7rem;}
+   .footer {background-color: rgb(54, 53, 53); color: rgb(234, 228, 228); padding: 2rem 2rem 1rem 0rem; line-height: 1.5em; font-size: 0.825rem;}
+}
+/* *********************************** */
+/* BELOW 704px (Smaller Tablets) */
+/* *********************************** */
+@media (max-width: 44em) {
+    .row {
+        margin: auto 0.5rem;
+    }
+    a {
+        text-decoration: none;
+        font-size: 0.82rem;
+        color: black;
+        transition: color 0.3s ;
+      }
+      
+      a:hover,
+      a:active {
+          text-decoration: none;
+          font-size: 0.82rem;
+          color: rgb(145, 136, 136);
+      }
+      .nav li{
+        display: inline-block;
+        margin-left: 1rem;
+        position: relative; bottom: 1.25rem; left: 0.4rem;
+        transition: border-bottom 0.3s ;
+    }
+    
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 1rem;
+        position: relative; bottom:1.25rem; left: 0.4rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 0.15rem solid rgb(249, 44, 44);;
+    }
+
+    .first-section img {
+        height: 17rem;
+        width: 100%;
+    }
+    .second-section .box p {
+        text-align: center;
+        padding: 0.6rem;
+        font-size: 0.9rem;
+        margin-right: 0.5rem;
+    }
+    .third-section img {
+        height: 9.5rem;
+        width: 120%;
+        position: relative; right: 1.25rem;
+    }
+    .order {
+        background-color: white;
+        border: 0.1rem solid rgb(239, 231, 231);
+        box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+        width: 99%;
+        height: 7.5rem;
+        position: relative; bottom: 0.2rem; left: 0.25rem;
+    }
+    .third-section .btn-full2:link, 
+    .third-section .btn-full2:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.75rem;
+    transition: background-color 0.5s;
+    }
+
+    .third-section .btn-full2:hover,
+    .third-section .btn-full2:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.55rem 1.5rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.75rem;
+}
+
+.third-section h5 {font-size: 0.65rem;}
+.third-section p {font-size: 0.9rem;}
+.fourth-section img {
+    height: 20rem;
+    width: 16.5rem;
+}
+.fourth-section p { line-height: 1.5em; position: relative; top: 2.75rem; right: 0.75rem;}
+.last-section p { padding: 0.5rem 0rem 0.5rem 5rem;}
+.last-section img {height: 16.25rem; position: relative; right: 3rem;}
+.steps div {
+    color: rgb(201, 44, 44);
+    border: 0.1rem solid rgb(201, 44, 44);
+    display: inline-block;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 0.15rem;
+    position: relative; left: 9rem;
+   }
+   .about p {line-height: 1.3em; text-align: center; margin-right: 4rem;}
+   .footer {background-color: rgb(54, 53, 53); color: rgb(234, 228, 228); padding: 2rem 2rem 1rem 0rem; line-height: 1.5em; font-size: 0.825rem;}
+
+}
+
+/* *********************************** */
+/* BELOW 544px (Phones) */
+/* *********************************** */
+@media (max-width: 34em) {
+    .row {
+        margin: auto 0.5rem;
+    }
+    header h2 {
+        color: rgb(249, 44, 44);
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .nav li{
+        display: inline-block;
+        margin-left: 0.1rem;
+        position: relative; bottom: 1.25rem;
+        transition: border-bottom 0.3s ;
+    }
+    
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 0.1rem;
+        position: relative; bottom: 1.25rem;
+        margin-bottom: 0.25rem;
+        border-bottom: 0.1rem solid rgb(249, 44, 44);;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: black;
+        transition: color 0.3s ;
+      }
+      
+      a:hover,
+      a:active {
+          text-decoration: none;
+          font-size: 0.7rem;
+          color: rgb(145, 136, 136);
+      }
+.btn-full:link, 
+.btn-full:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.55rem 1.5rem;
+    border-radius: 0.25rem;
+    position: relative; bottom: 1.25rem; left: 0.25rem;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.55rem 1.5rem;
+    border-radius: 0.25rem;
+    position: relative; bottom: 1.25rem; left: 0.25rem;
+}
+.first-section img {
+    height: 15.5rem;
+    width: 12.7rem;
+}
+.first-section h1 {
+    color: rgb(249, 44, 44);
+    font-size: 1.55rem;
+}
+.second-section .box p {
+    text-align: center;
+    margin-left: -0.25rem;
+    font-size: 0.81rem;
+}
+.second-section img {
+    height: 2rem;
+    clip-path: circle();
+    position: relative; left: 0.5rem; top: 0.5rem;
+}
+.second-section .box {
+    background-color: white;
+    height: 16rem;
+}
+.third-section img {
+    height: 7.5rem;
+    width: 120.5%;
+    position: relative; right: 1.25rem;
+}
+.order {
+    background-color: white;
+    border: 0.1rem solid rgb(239, 231, 231);
+    box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+    width: 96%;
+    height: 7.5rem;
+    position: relative; bottom: 0.2rem; left: 0.25rem;
+}
+.third-section .btn-full2:link, 
+.third-section .btn-full2:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.55rem 0.75rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.75rem; left: -0.1rem;
+    transition: background-color 0.5s;
+}
+
+.third-section .btn-full2:hover,
+.third-section .btn-full2:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.55rem 0.75rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.75rem; left: -0.1rem;
+}
+.third-section h5 {font-size: 0.65rem;}
+.third-section p {font-size: 0.8rem; margin-top: 0.25rem;}
+.fourth-section img {
+    height: 19rem;
+    width: 12.5rem;
+}
+.fourth-section p { line-height: 1.15em; position: relative; top: 1.75rem; right: 0.75rem;}
+.last-section p { padding: 0.5rem 0rem 0.5rem 5rem; font-size: 0.9rem;}
+.last-section img {height: 14.25rem; position: relative; right: 3rem; top: 2.4rem;}
+.steps div {
+    color: rgb(201, 44, 44);
+    border: 0.1rem solid rgb(201, 44, 44);
+    display: inline-block;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 0.15rem;
+    position: relative; left: 7rem;
+   }
+   .about p {line-height: 1.1em; text-align: center;}
+   .footer {background-color: rgb(54, 53, 53); color: rgb(234, 228, 228); padding: 2rem 3.25rem 1rem 0rem; line-height: 1.3em; font-size: 0.8rem;}
+}
+
+/* *********************************** */
+/* BELOW 492px (Phones) */
+/* *********************************** */
+@media (max-width: 30.75em) {
+    .nav li{
+        display: inline-block;
+        margin-left: 0.1rem;
+        position: relative; bottom: 1.25rem;
+        visibility: hidden;
+        transition: border-bottom 0.3s ;
+    }
+    .first-section img {
+        height: 16rem;
+        width: 102%;
+    }
+    .first-section h5 {
+        font-size: 0.75rem;
+    }
+    .second-section .box p {
+        text-align: center;
+        padding: 0.2rem;
+        font-size: 0.75rem;
+    }
+    span {font-size: 0.75rem;}
+
+    .third-section .btn-full2:link, 
+    .third-section .btn-full2:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.2rem; left: -0.3rem;
+    visibility: visible;
+    transition: background-color 0.5s;
+}
+   .third-section .btn-full2:hover,
+   .third-section .btn-full2:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.2rem; left: -0.3rem;
+}
+.order {
+    background-color: white;
+    border: 0.1rem solid rgb(239, 231, 231);
+    box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+    width: 94%;
+}
+
+.fourth-section img {
+    height: 19rem;
+    width: 104%;
+}
+.fourth-section p { line-height: 1.2em; position: relative; top: 1.7rem; right: 0.75rem; font-size: 0.95rem;}
+.steps div {
+    position: relative; left: 45%;
+   }
+
+.last-section p { padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 1rem; text-align: center; line-height: 1.3em;}
+.last-section img {height: 10.65rem; position: relative; right: 3rem; top: 4.4rem; margin-bottom: 3rem;}
+.about p {line-height: 1.1em; text-align: center; font-size: 1rem; margin-left: 4rem; font-style: italic;}
+.footer {background-color: rgb(54, 53, 53); color: rgb(234, 228, 228); padding: 2rem 4.5rem 1rem 0rem; line-height: 1.5em; font-size: 0.8rem;}
+}
+
+/* *********************************** */
+/* BELOW 480px (Phones) */
+/* *********************************** */
+@media (max-width: 30em) {
+    .row {
+        margin: auto 0.5rem;
+    }
+
+    .first-section img {
+        height: 20.5rem;
+        width: 100%;
+    }
+    .nav li{
+        display: inline-block;
+        margin-left: 0.1rem;
+        position: relative; bottom: 1.25rem;
+        visibility: hidden;
+        transition: border-bottom 0.3s ;
+    }
+    .btn-full2:link, 
+    .btn-full2:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.55rem 1.5rem;
+    border-radius: 0.25rem;
+    position: relative; top: 1.75rem;
+    visibility: hidden;
+    transition: background-color 0.5s;
+}
+.second-section img {
+    height: 5.5rem;
+    clip-path: circle();
+    position: relative; left: 0.5rem; top: 0.5rem;
+}
+.second-section .box {
+    background-color: white;
+    height: 16rem;
+    border: 0.5rem solid rgb(255, 213, 220);
+    border-radius: 1.5rem;
+}
+.second-section .box p {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+.third-section img {
+    height: 12.5rem;
+    width: 104.5%;
+    position: relative; right: 1.25rem;
+}
+.order {
+    background-color: white;
+    border: 0.1rem solid rgb(239, 231, 231);
+    box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+    width: 96%;
+    height: 7.5rem;
+    position: relative; bottom: 0.2rem; left: 0.25rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 3rem;
+}
+.third-section .btn-full2:link, 
+.third-section .btn-full2:visited{
+    background: rgb(249, 44, 44);
+    color: white;
+    padding: 0.8rem 1.75rem;
+    border-radius: 0.25rem;
+    position: relative; top: -1.8rem; left: 8rem;
+    visibility: visible;
+    transition: background-color 0.5s;
+}
+.third-section .btn-full2:hover,
+.third-section .btn-full2:active {
+    background: rgb(201, 44, 44);
+    color: white;
+    padding: 0.8rem 1.75rem;
+    border-radius: 0.25rem;
+    position: relative; top: -1.8rem; left: 8rem;
+}
+.third-section h5 {font-size: 1rem; text-align: center;}
+.third-section p {font-size: 1rem; margin-top: 1rem;}
+.fourth-section img {
+    height: 19rem;
+    width: 100%;
+}
+.fourth-section p { line-height: 1em; position: relative; top: -0.5rem; right: 0.75rem; font-size: 0.95rem;}
+.last-section p { padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 1rem; text-align: center; line-height: 1.5em;}
+.last-section img {height: 14.25rem; position: relative; right: 3rem; top: 2.4rem; margin-bottom: 3rem;}
+.steps div {
+    color: rgb(201, 44, 44);
+    border: 0.1rem solid rgb(201, 44, 44);
+    display: inline-block;
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 0.15rem;
+    position: relative; left: 50%;
+   }
+   .about p {line-height: 1.1em; text-align: center; font-size: 1rem; margin-left: 3.5rem; font-style: italic;}
+   .footer {background-color: rgb(54, 53, 53); color: rgb(234, 228, 228); padding: 2rem 3.25rem 1rem 0rem; line-height: 1.5em; font-size: 0.8rem; text-align: center;}
+   .footer h5 {font-size: 0.75rem;}
+}
