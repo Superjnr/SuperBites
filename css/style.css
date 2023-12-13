@@ -1,0 +1,286 @@
+/**************************/
+/* HEADER */
+/**************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4.8rem;
+  position: relative;
+  margin: 1rem 0;
+}
+.logo {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(249, 44, 44);
+  font-weight: 700;
+}
+.logo-a {
+  text-decoration: none;
+}
+/**************************/
+/* NAVIGATION */
+/**************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #000;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  border-bottom: 2px solid rgb(249, 44, 44);
+}
+.nav-cta:link,
+.nav-cta:visited {
+  background: rgb(249, 44, 44);
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.nav-cta:hover,
+.nav-cta:active {
+  background: rgb(201, 44, 44);
+}
+/**************************/
+/* HEADING */
+/**************************/
+.heading-primary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: rgb(249, 44, 44);
+  margin-bottom: 3.2rem;
+  padding-top: 0rem;
+}
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: rgb(201, 44, 44);
+  text-align: center;
+  margin-bottom: 1.6rem;
+  padding-top: 0rem;
+}
+.heading-tertiary {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+  color: #000;
+  text-align: center;
+  padding-top: 3.2rem;
+}
+/**************************/
+/* BUTTONS */
+/**************************/
+.btn-order:link,
+.btn-order:visited {
+  background: rgb(249, 44, 44);
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  transition: all 0.8s;
+}
+.btn-order:hover,
+.btn-order:active {
+  background: rgb(201, 44, 44);
+}
+.btn-buy:link,
+.btn-buy:visited {
+  background: rgb(249, 44, 44);
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+  transition: all 0.8s;
+}
+.btn-buy:hover,
+.btn-buy:active {
+  background: rgb(201, 44, 44);
+}
+/**************************/
+/* MOBILE - NAVI */
+/**************************/
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.btn-mobile-nav i {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  height: 4.8rem;
+  width: 4.8rem;
+  color: black;
+}
+.btn-mobile-nav .close {
+  display: none;
+}
+/**************************/
+/* HERO */
+/**************************/
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  padding: 5.2rem 3.2rem 0 3.2rem;
+}
+.long-para {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.05;
+  padding-bottom: 3rem;
+}
+.hero img {
+  height: 110%;
+  width: 100%;
+}
+/**************************/
+/* CUSTOMERS */
+/**************************/
+.section-customers {
+  background-color: rgb(255, 213, 220);
+  padding: 2.4rem 0;
+  margin-top: 4.8rem;
+}
+.cus {
+  background: #fff;
+  padding: 3.2rem 3.2rem 0 3.2rem;
+  height: 80%;
+  margin-top: 2.4rem;
+  border-radius: 1rem;
+}
+
+.section-customers .cus p:before {
+  content: "\201c";
+  font-size: 200%;
+  display: block;
+}
+.cus img {
+  height: 20%;
+  clip-path: circle();
+  margin-top: 4rem;
+}
+.cus p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+span {
+  margin-top: 4rem;
+  font-size: 1.8rem;
+}
+/**************************/
+/* BEST-SELLERS */
+/**************************/
+.section-sellers {
+  padding: 2.4rem 0 0 0;
+  margin-top: 4.8rem;
+}
+.best-sellers {
+  margin-top: 2.4rem;
+}
+.best-sellers img {
+  height: 50%;
+  width: 100%;
+}
+.order {
+  border: 0.1rem solid rgb(239, 231, 231);
+  box-shadow: rgba(240, 236, 236, 0.742) 0.2rem 0.2rem 0.2rem;
+  width: 100%;
+  height: 35%;
+  line-height: 1.2;
+  padding: 0 2rem;
+}
+.order p {
+  font-size: 2rem;
+}
+.free {
+  padding-bottom: 2rem;
+}
+/**************************/
+/* CAKE */
+/**************************/
+.section-cake {
+  padding: 2.4rem 0;
+  background-color: rgb(255, 213, 220);
+}
+.cake-textbox {
+  font-size: 2.2rem;
+  margin-top: 9rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.cake-img img {
+  height: 100%;
+  width: 100%;
+}
+.cake {
+  margin-top: 2.4rem;
+}
+/**************************/
+/* TREATS */
+/**************************/
+.section-treats {
+  padding: 2.4rem 0;
+  margin-top: 4.8rem;
+}
+.steps div {
+  color: rgb(201, 44, 44);
+  border: 0.1rem solid rgb(201, 44, 44);
+  display: inline-block;
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  padding: 0.15rem;
+  position: relative;
+  left: 15rem;
+}
+.treats-textbox {
+  font-size: 1.8rem;
+  margin-top: 9rem;
+}
+.treats-textbox p {
+  padding: 1.5rem 0rem 1.5rem 2rem;
+}
+.section-about {
+  padding: 2.4rem 0;
+}
+.about-long-copy {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  text-align: center;
+}
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+  padding: 2.4rem 0;
+  background-color: rgb(54, 53, 53);
+  color: rgb(234, 228, 228);
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(234, 228, 228);
+  transition: color 0.5s;
+}
+.footer a:hover {
+  color: rgb(249, 44, 44);
+}
